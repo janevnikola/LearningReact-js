@@ -1,0 +1,68 @@
+.ImageSliderContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    margin: 32px;
+}
+
+.leftIcon {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    width: 32px;
+    left: 16px;
+    height: 32px;
+}
+
+.rightIcon {
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    width: 32px;
+    right: 16px;
+    height: 32px;
+}
+
+.hideImage {
+    display: none;
+}
+
+.circleIndicator {
+
+    background-color: white;
+    margin: 15px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.hideCircleIndicator {
+    background-color: gray;
+    margin: 15px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    align-items: center;
+    position: absolute;
+
+    bottom: 32px;
+    border-radius: 50%;
+}
